@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #161616;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    max-width: 400px;
+    padding: 20px;
+}
+.item-card {
+    width: 350px;
+    height: 75px;
+    background: #3d3d3d;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #EFEFEF;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+    overflow-wrap: normal;
+}
+
+.submit-button {
+    position: absolute;
+    right: 10px;
+    margin-left: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #D2D2D2;
+} 
+
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.checkbox {
+    width: 70px;
+    height: 60px;
+    background-color: #4FE3A3;
+    float: right;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+.delete {
+    background-color: #ff6962;
+}
+
+span {
+    position: absolute;
+    color: black;
+    top: 30%;
+    left: 30%;
+}
+
+
+
+/* RIGHT TO LEFT */
+.right-left-green {
+    border: 2px solid black;
+    background: linear-gradient(to left, #4FE3A3 50%, #3d3d3d 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: all .7s ease-out;
+  }
+  
+.right-left-green:hover {
+    border: 2px solid limegreen;
+    background-position: bottom right;
+    color: black;
+}
+
+.right-left-red {
+    border: 2px solid black;
+    background: linear-gradient(to left, #ff6962 50%, #3d3d3d 50%);
+    background-size: 200% 100%;
+    background-position: bottom left;
+    transition: all .7s ease-out;
+  }
+  
+.right-left-red:hover {
+    border: 2px solid #ff6962;
+    background-position: bottom right;
+    color: black;
+}
